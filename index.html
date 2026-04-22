@@ -3,22 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="dogImg.jpeg" type="image/x-icon"/>
+    <meta name="description" content="Learn HTML step by step" />
+    <meta name="keywords" content="HTML, beginner, web development" />
+    <meta name="author" content="Emediong Chris" />
+    <link rel="icon" href="dogImg.jpeg" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Emediong</title>
+    <title>Emediong Website</title>
   </head>
 
   <body>
-
-    <header style="background-color: lightblue; padding: 20px; border-radius: 10px;">
-        <nav style="display: flex; justify-content: space-between; align-items: center;">
-            <ul style="list-style: none; display: flex; gap: 20px;">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="https://google.com">Contact</a></li>
-            </ul>
-        </nav>
+    <header
+      style="background-color: lightblue; padding: 20px; border-radius: 10px"
+    >
+      <nav
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <ul style="list-style: none; display: flex; gap: 20px">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="https://google.com">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- h1 to h6 -->
@@ -31,7 +41,6 @@
 
     <img src="dogImg.jpeg" alt="dog" />
 
-  
     <!-- buttons -->
     <button>Click me</button>
     <button>Log in</button>
@@ -52,15 +61,13 @@
 
     <h1>Names of students orderly</h1>
     <ol>
-        <li>Abraham</li>
-        <li>Bassey</li>
-        <li>Caleb</li>
-        <li>Daniel</li>
-        <li>Elijah</li>
-        <li>Frederick</li>
-        
+      <li>Abraham</li>
+      <li>Bassey</li>
+      <li>Caleb</li>
+      <li>Daniel</li>
+      <li>Elijah</li>
+      <li>Frederick</li>
     </ol>
-
 
     <!-- paragraph -->
     <p>
@@ -76,30 +83,41 @@
     </p>
 
     <!-- divs and forms -->
-    <div style="background-color: lightblue; padding: 20px; border-radius: 10px; width:fit-content">
-         <img src="dogImg.jpeg" alt="dog1" />
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" />
-          <br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" />
-          <br />
-          <label for="password">Password:</label>
-          <input type="password" placeholder=""password />
-            <br />
-          <input type="submit" value="Submit" />
-          <input type="radio" value="Reset" />
-          <input type="checkbox" value="Reset" />
-        </form>
+    <div
+      style="
+        background-color: lightblue;
+        padding: 20px;
+        border-radius: 10px;
+        width: fit-content;
+      "
+    >
+      <img src="dogImg.jpeg" alt="dog1" />
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder=""
+          password
+        />
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="number" min="1" max="10" value="5" />
+        <input type="radio" value="Reset" />
+        <input type="checkbox" value="Reset" />
+      </form>
     </div>
-
 
     <!-- footer -->
     <footer>
-        <p>&copy; 2024 Emediong. All rights reserved.</p>
+      <p>&copy; 2024 Emediong. All rights reserved.</p>
     </footer>
-
   </body>
-
 </html>
