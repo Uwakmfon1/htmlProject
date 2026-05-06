@@ -1,0 +1,77 @@
+/* display: inline
+Characteristics:
+Stays in same line
+Only takes needed width
+Cannot set width/height properly */
+
+/* display: block
+Characteristics:
+Takes full width
+Starts on a new line
+Can set width/height */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color:lightblue;
+}
+
+span{background-color:lightgreen;}
+
+button{
+    display:inline-block;
+    width: 150px;
+  height: 50px;
+}
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: coral;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Hide menu by default */
+.nav-links {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  background: #444;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 200px;
+}
+
+/* 👇 This is the key */
+.nav-links.active {
+  display: flex;
+}
+
+.nav-links li {
+  padding: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
